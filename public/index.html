@@ -7,19 +7,25 @@
   <meta name="description" content="">
   <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
-  <title>Progressus - %NODE_ENV% - %REACT_APP_SECRET_KEY%</title>
+  <title>%REACT_APP_ENVIRONMENT%</title>
 
   <link rel="shortcut icon" href="assets/images/gt_favicon.png">
-
-  <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+  <link rel="stylesheet" media="screen" href="assets/css/google-fonts.css">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-  <!-- Custom styles for our template -->
-  <link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen">
+  <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css" media="screen">
   <link rel="stylesheet" href="assets/css/main.css">
 
+
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/headroom.min.js"></script>
+  <script src="assets/js/jQuery.headroom.min.js"></script>
+  <script src="assets/js/template.js"></script>
+  <script src="assets/js/socket.io.js"></script>
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
@@ -32,12 +38,6 @@
 
   <div id="root"></div>
 
-  <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-  <script src="assets/js/headroom.min.js"></script>
-  <script src="assets/js/jQuery.headroom.min.js"></script>
-  <script src="assets/js/template.js"></script>
 </body>
 
 </html>
