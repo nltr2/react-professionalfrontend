@@ -10,16 +10,12 @@ const Navigation = () => {
 
                 <li><Link to="/about-us">About Us</Link></li>
 
-                <li className="dropdown">
-                    <a href="/" className="dropdown-toggle" data-toggle="dropdown">More Pages <b className="caret"></b></a>
-                    <ul className="dropdown-menu">
-                        <li><a href="sidebar-left.html">Left Sidebar</a></li>
-                        <li className="active"><a href="sidebar-right.html">Right Sidebar</a></li>
-                    </ul>
+                <li>
+                    <Link to="/contact-us">Contact</Link>
                 </li>
 
                 <li>
-                    <Link to="/contact-us">Contact</Link>
+                    <Link to="/crm-system">Customers</Link>
                 </li>
 
                 <li>
